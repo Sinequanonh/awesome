@@ -1,4 +1,4 @@
 !/bin/bash
 
-youtube-dl -o "%(uploader)s - %(title)s.%(ext)s" -f mp4 $1
-mv *.mp4 /Users/leobaecker/Movies/youtube
+youtube-dl -o "%(uploader)s - %(title)s.%(ext)s" -f mp4 $1 --exec 'mv {} /Users/lbaecker/Music/iTu\
+nes/iTunes\ Media/Automatically\ Add\ to\ iTunes.localized/'
